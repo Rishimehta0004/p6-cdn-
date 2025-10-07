@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>HTTP/2 CDN Practical — HTTP/2 Test</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="container">
+        <section class="hero">
+            <div class="text">
+                <h1 class="title">Hello, Rishi — CDN Practical over HTTP/2 🚀</h1>
+                <p class="subtitle">This demo shows your static site served with modern HTTP/2 features. Use the GitHub button below to link to your practical repository.</p>
+                <div class="cta">
+                    <!-- Replace the URL below with your actual GitHub repository for the CDN practical -->
+                    <a class="btn" href="https://github.com/<your-username>/cdn-practical" target="_blank" rel="noopener noreferrer">Open GitHub repo</a>
+                    <a class="btn secondary" href="PERFORMANCE_TESTING.md" target="_blank" rel="noopener noreferrer">Performance testing guide</a>
+                </div>
+            </div>
+            <div class="visual">
+                <img src="/server.crt" alt="cert" style="width:120px;opacity:0.9;border-radius:8px;filter:grayscale(10%);">
+            </div>
+        </section>
+
+        <div class="card-grid">
+            <div class="card">
+                <h3>CDN usage example</h3>
+                <div class="cdn-sample">
+                    <img src="https://via.placeholder.com/150" alt="cdn-sample">
+                    <div>
+                        <p class="subtitle" style="margin:0">Example: Host static assets on a CDN and reference them with HTTPS. Replace this placeholder with your CDN URL.</p>
+                        <code style="display:block;margin-top:8px;background:var(--glass);padding:6px;border-radius:6px;color:var(--muted)">https://cdn.example.com/your-lib.min.js</code>
+                    </div>
+                </div>
+            </div>
+
+            <div class="card">
+                <h3>Why HTTP/2 helps</h3>
+                <p class="subtitle">HTTP/2 provides multiplexing, header compression, and server push — all useful when serving many small assets from a CDN. Measure load time improvements using Lighthouse or wrk.</p>
+            </div>
+        </div>
+
+        <div class="footer">Tip: After pushing your practical to GitHub, link the repository above and run the tests in <a href="PERFORMANCE_TESTING.md">the performance guide</a>.</div>
+    </div>
+</body>
+</html>
