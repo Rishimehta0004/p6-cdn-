@@ -21,3 +21,4 @@ git push -u origin main
 3. After pushing, update the GitHub link in `html/index.html` to point to your repository so the demo page links out to it.
 
 That's it — your practical will be on GitHub and ready to show.
+# p6-cdn-
